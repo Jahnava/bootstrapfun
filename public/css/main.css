@@ -84,3 +84,36 @@ h1:after {
   border: 4px solid #fff;
 float: center;
 }
+
+p {
+     text-indent: 2.0em;
+   }
+
+   .dropdown-menu a:hover {
+     background-color: pink;
+   }
+
+   .dropdown:hover .dropdown-menu {
+       display: block;
+   }
+
+/*main nav hover*/
+   .nav-item:hover a:hover {
+     background-color: pink;
+     border-radius: 5px 5px 5px 5px;
+     /*color: white;*/
+   }
+
+/*center navbar items*/
+   .navbar .navbar-nav {
+   display: inline-block;
+   float: none;
+   vertical-align: top;
+ }
+
+ .navbar .navbar-collapse {
+   text-align: center;padding: inherit;
+ }
+
+
+}
