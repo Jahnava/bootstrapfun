@@ -2,9 +2,104 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <title>Blog</title>
   </head>
   <body>
-    <h1>This is my blog</h1>
+    <div class="container-fluid">
+      <!-- nav -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+         <img class="img-circle" src="https://firebasestorage.googleapis.com/v0/b/pics-85b52.appspot.com/o/15871499_10154393401424601_7599807083509357092_n.jpg?alt=media&token=72a8c7ed-46fa-47f4-9b56-99db8520f0d8" width="50" height="50" alt="">
+       </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link btn-outline-danger" href="#home">HOME <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link btn-outline-danger" href="/html/blog.html">Blog</a>
+      </li>
+
+      <!-- <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle btn-outline-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          BLOG
+        </a>
+        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">blog post 1</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">blog post 2</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">blog post 3</a>
+        </div>
+      </li> -->
+
+      <li class="nav-item dropdown active ">
+        <a class="nav-link dropdown-toggle btn-outline-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          RECIPES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <!-- <a class="dropdown-item" href="#">Food Journey</a>
+          <div class="dropdown-divider"></div> -->
+          <a class="dropdown-item" href="/html/recipe1.html">RECIPE1</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">RECIPES2</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">recipe3</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">recipe4</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle btn-outline-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          EXERCISE
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/html/pilates.html">Classic Pilates</a>
+          <!-- <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">pilates</a> -->
+          <!-- <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">strengthening</a> -->
+        </div>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0 searchFloat">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+    <div class='container'>
+
+  <h1>This is my blog</h1>
+
+  </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="/js/app.js" charset="utf-8"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>
